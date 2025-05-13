@@ -59,12 +59,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'sonicflow.urls'
 
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'https://sonicflow-backend-2.onrender.com',
-]
+ALLOWED_HOSTS = ['sonicflow-backend-2.onrender.com', 'localhost', '127.0.0.1']
 
-CORS_ALLOW_CREDENTIALS = True
 
 
 REST_FRAMEWORK = {
