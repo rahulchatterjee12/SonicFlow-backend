@@ -59,9 +59,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'sonicflow.urls'
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-]
+ALLOWED_HOSTS = ['*']
 
 
 REST_FRAMEWORK = {
