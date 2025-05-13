@@ -59,7 +59,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'sonicflow.urls'
 
 
-ALLOWED_HOSTS = ['sonicflow-backend-2.onrender.com', 'localhost', '127.0.0.1']
+CORS_ALLOWED_ORIGINS = ['sonicflow-backend-2.onrender.com', 'localhost', '127.0.0.1']
 
 
 
