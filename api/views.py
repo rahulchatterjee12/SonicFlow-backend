@@ -68,7 +68,6 @@ class SongListCreateView(generics.ListCreateAPIView):
 class SongDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Song.objects.all()
     serializer_class = SongSerializer
-    permission_classes = [IsAuthenticated]
 
 
 class PlaylistListCreateView(generics.ListCreateAPIView):
