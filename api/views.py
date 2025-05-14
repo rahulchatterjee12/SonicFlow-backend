@@ -64,6 +64,7 @@ def check_auth_status(request):
 class SongListCreateView(generics.ListCreateAPIView):
     queryset = Song.objects.all()
     serializer_class = SongSerializer
+    pagination_class = generics.pagination.PageNumberPagination
 
 class SongDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Song.objects.all()

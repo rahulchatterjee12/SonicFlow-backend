@@ -65,14 +65,16 @@ ROOT_URLCONF = 'sonicflow.urls'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", 
     "http://127.0.0.1:3000",
-    "https://sonicflow-backend-2.onrender.com"
-    "https://sonic-flow-frontend.vercel.app"
+    "https://sonicflow-backend-2.onrender.com",
+    "https://sonic-flow-frontend.vercel.app",
+    "https://django-app-production-32e6.up.railway.app"
+
     ]
 
 CORS_ALLOW_ALL_ORIGINS = True
 
 
-ALLOWED_HOSTS = ["sonicflow-backend-2.onrender.com", "localhost", "127.0.0.1","sonic-flow-frontend.vercel.app"]
+ALLOWED_HOSTS = ["sonicflow-backend-2.onrender.com", "localhost", "127.0.0.1","sonic-flow-frontend.vercel.app","django-app-production-32e6.up.railway.app"]
 
 
 REST_FRAMEWORK = {
